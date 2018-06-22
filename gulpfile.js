@@ -42,7 +42,7 @@ var displayError = function (error) {
 };
 
 var onError = function (err) {
-	notify.onError({
+  notify.onError({
 		title: "Gulp",
 		subtitle: "Failure!",
 		message: "Error: <%= error.message %>",
